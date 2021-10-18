@@ -1,15 +1,15 @@
 {
-    "name": "QueenSewWhatsappBot",
-    "description": "SewQueen - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "name": "kingDinukawhatsappboot",
+    "description": "dinukaKing - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.ibb.co/JkjKGTy/temp-user-profile1621662133773.jpg",
-    "keywords": ["whatsapp", "userbot", "sew", "sewqueen", "bot", "api", "ai"],
+    "keywords": ["whatsapp", "userbot", "king", "kingdinuka", "bot", "api", "ai"],
     "repository": "",
-    "website":   "https://t.me/RavinduManoj",
+    "website":   "https://t.me/Makquil",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "_SEW_QUEEN_SESSION": {
-            "description": "Type here yours SEW_QUEEN Session.QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
+        "_KING_DINUKA_SESSION": {
+            "description": "Type here yours King_Dinuka Session.QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
             "required": true
         },
         "SUDO": {
@@ -98,7 +98,7 @@
         "YOUR_BOT_NAME": {
             "description": "බොට්ගේ නාමය වෙනස් කරයි.",
             "required": false,
-            "value": "❄💘sew💓❄bot(💗සූටික්කි💗)R💌S"
+            "value": "KING DINUKA"
         },
         "FULL_SEW": {
             "description": "Turn your account into a chatbot!",
