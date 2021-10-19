@@ -80,15 +80,6 @@
             "required": false,
             "value": "https://bit.ly/3AyW139"
         },
-          "ZZ_PASSWORD": {
-            "description": "බොට්ව සෑදීම සදහා පාස්වර්ඩ් එකක් අවශ්‍ය අතර වීඩියෝව නරඹා එය ලබා ගන්න.password required.. watch the video",
-            "required": true
-         },
-         "AUTO_STICKER": {
-            "description": "If you likes bgm you can write 'true'. Otherwise false. auto ස්ටිකර්ස් රිප්ලයි යැවීම සදහා",
-            "required": false,
-            "value": "true"
-        },
         "OWNER_SHIP": {
             "description": "බොට් අයිතිකරුගේ නාමය වෙනස් කරයි",
             "required": false,
