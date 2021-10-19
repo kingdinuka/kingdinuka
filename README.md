@@ -36,11 +36,12 @@ Click Whatsapp logo to Join Support Group 👇
 
   ### Simple Method
  
-👑 King Dinuka Qr කේතය ලබා ගැනීම්ට පහත රූපය මත click කරන්න
+# 👑 King Dinuka Qr කේතය ලබා ගැනීමට පහත රූපය මත click කරන්න
  
 [![Run on Repl.it](https://raw.githubusercontent.com/Sew01RaviduManoj01KingAndQueen/QueenSew/master/resources/gif/qr-scan.gif)](https://replit.com/@yasasdileepa/King-Dinuka?v=1)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fdinukabot%2Fdinukabot)
+#  Bot Deploy කිරීම සදහා
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/&template=https://github.com/kingdinuka/kingdinuka.git)
      </div>
 
 
@@ -62,7 +63,10 @@ Make Full Help| Modifiying  as   public | Bug Fixes, Modules
   </div>
     
 ##  Help  Usuf Usta
+
+# Thanks
   
+### Janaka,Anula,Dinuki,Dileepa
 
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
