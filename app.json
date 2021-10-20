@@ -1,215 +1,136 @@
 {
-    "name": "kingDinukawhatsappboot",
-    "description": "dinukaKing - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://i.ibb.co/JkjKGTy/temp-user-profile1621662133773.jpg",
-    "keywords": ["whatsapp", "userbot", "king", "kingdinuka", "bot", "api", "ai"],
-    "repository": "",
-    "website":   "https://t.me/Makquil",
-    "success_url": "https://t.me/AsenaSupport",
+    "name": "Dinuka",
+    "description": "Dinuka💢 project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
+    "logo": "https://telegra.ph/file/7de56858209649d760d99.jpg",
+    "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
+    "repository": "https://github.com/kingdinuka/kingdinukaD",
+    "website":   "https://t.me/farhan-dqz",
+    "success_url": "https://t.me/farhan-dqz",
     "stack": "container",
     "env": {
-        "_KING_DINUKA_SESSION": {
-            "description": "Type here yours King_Dinuka Session.QR කෝඩය ස්කෑන් කර ලබා ගන්නා කේතය ඇතුලත් කරන්න",
+        "DINUKA_SESSION": {
+            "description": "ඔබ ඔබගෙ whatsappහි Sacn කෙරූ තැනනින් ආ කොඩ් එක දන්න",
             "required": true
         },
         "SUDO": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 94xxxxxxxx (USA number +94)",
-            "required": false
+            "description": "මෙය වෙනස් වැලකෙන්න(මෙය පිරවිය නොහැක නැතහොත් බොට් වැඩ නොකරයි)!",
+            "required": false,
+            "value": "94703179493,0"
         },
         "LANGUAGE": {
-            "description": "Bot language.English => en, භාශාව තේරීම සදහා",
+            "description": "",
             "required": true,
-            "value": "en"
-        },
-        "ANTİ_LİNK": {
-            "description": "Link Blocking System.ගෲපයට කෙනෙකු ලින්ක් එකක් ඇතුලත් කලහොත් ඔහුව ගෲපයෙන් නෙරපා දමයි",
-            "required": true,
-            "value": "false"
-        },
-        "INBO_BLOCK": {
-            "description": "Inbox Blocking System. ඉන්බොක්ස් මැසේජ් දමන්නන් බ්ලොක් කරයි",
-            "required": true,
-            "value": "false"
-        },
-        "AUTO_BİO": {
-            "description": "Set true for auto date, time in biography.",
-            "required": true,
-            "value": "false"
+            "value": "EN"
         },
         "HANDLERS": {
-            "description": "For commands.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": true,
             "value": "^[.!;]"
         },
-        "BAD_KICK": {
-            "description": "It's true, kick the member who using bad word.අසභ්‍ය වචන පාවිච්චි කරන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
-            "required": true,
-            "value": "true"
-        },
-        "SPAM_KICK": {
-            "description": "It's true, kick the member who using spam.ස්පෑම් දමන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
-            "required": true,
-            "value": "true"
-        },
-        "VOICE_REPLY": {
-            "description": "If you likes bgm you can write 'true'. Otherwise false.ගැහැනුලමයෙකුගේ කටහඩින් auto voice රිප්ලයි යැවීම සදහා",
-            "required": false,
-            "value": "true"
-        },
-        "CAPTION_NAME": {
-            "description": "කැප්ශන් එක වෙනස් කල හැකිය. you can change the caption",
-            "required": false
-         },
-         "Y__GREETING_TYPE": {
-            "description": "welcome/goodbye මැසේජ් සදහා අවශය ආකාරය තෝරන්න.. ප්‍රොෆයිල් පික් එක සමග නම් pp ද ගිෆ් එකක් සමග නම් gif ලෙසද පින්තූරයක් සදහා img ලෙසද යොදන්න.",
-            "required": false,
-            "value": "pp"
-        },
-       "Y_WELLCOME": {
-            "description": "ඉහත තේරීම gif හෝ img නම් වෙල්කම් මැසේජ් එක සදහා gif හෝ img එකක direct link එකක් යොදන්න",
-            "required": false,
-            "value": "https://bit.ly/3yG3zk6"
-        },
-        "Y_GOODBYE": {
-            "description": "ඉහත තේරීම gif හෝ img නම් ගුඩ්බායි මැසේජ් එක සදහා gif හෝ img එකක direct link එකක් යොදන්න",
-            "required": false,
-            "value": "https://bit.ly/3lXyPHM"
-        },
-        "SYSTEM_IMAGE": {
-            "description": "කිලෝබයිට් 500ට අඩු පින්තූරයක ඩිරෙක්ට් ලින්ක් එකක් යොදන්න.add derect link for image",
-            "required": false,
-            "value": "https://bit.ly/3AyW139"
-        },
-        "OWNER_SHIP": {
-            "description": "බොට් අයිතිකරුගේ නාමය වෙනස් කරයි",
-            "required": false,
-            "value": "RAVINDU MANOJ"
-        },
-        
-        "YOUR_BOT_NAME": {
-            "description": "බොට්ගේ නාමය වෙනස් කරයි.",
-            "required": false,
-            "value": "KING DINUKA"
-        },
-        "FULL_SEW": {
-            "description": "Turn your account into a chatbot!",
-            "required": true,
-            "value": "false"
-        },
-        "NO_LOG": {
-            "description": "Set true if you don't want to see error log.",
-            "required": true,
-            "value": "false"
-        },
         "SEND_READ": {
-            "description": "Write true if you want to throw seen.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": true,
             "value": "true"
         },
         "HEROKU": {
-            "description": "If it is running in Heroku, type true.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!.",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "Heroku API Key.",
+            "description": "Heroku API Key එක ටයිප් කරන්න. එය ඔබගේ හෙරෝකු Dashboard එකෙන් ගත් හැකිය",
             "required": true
         },
-        "PROXY": {
-            "description": " Proxy Address => http://some-host:1234",
-            "required": false,
-            "value": "false"
-        },
         "MUTE_MESSAGE": {
-            "description": "Customizable Mute Message! Use => default, to change back.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!.",
             "required": false,
             "value": "default"
         },
         "BLOCK_CHAT": {
-            "description": "Choose in which chat the bot won't work there. Ex: 94xxxxxxx && 94xxxxxx or 905xxxx,905xxx...",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "false"
         },
         "UNMUTE_MESSAGE": {
-            "description": "Customizable Unmute Message! Use => default, to change back.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
-            "description": "Customizable Block Message! Use => default, to change back.",
+            "description": " මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
-            "description": "Customizable Unblock Message! Use => default, to change back.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!.",
             "required": false,
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "Sew Bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "Maraya_BoT Working Type. ඔබ “public” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම බොට් භාවිතා කළ හැකිය. වෙනත් ආකාරයකින් ඔබ “private” භාවිතා කරන්නේ නම්, ඔබේ බෝට්ව භාවිතා කළ හැක්කේ ඔබට පමණි.",
             "required": true,
             "value": "public"
         },
         "HEROKU_APP_NAME": {
-            "description": "Heroku APP Name.",
+            "description": " ඔබ ඉහත මුලින්ම දුන් නාමය සදහන් කරන්න.",
             "required": true
         },
         "DEBUG": {
-            "description": "Geliştiricilere özeldir.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": true,
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "Get API Key. https://remove.bg",
+            "description": "ඡායාරූප වල පසුබිම ඉවත් කරයි.මෙහි API KEY එක ගැනීමට මෙම Site එක තුලට පිවිසෙන්න https://remove.bg",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! Use => default, to change back.",
+            "description": ".alive අණකිරීම කිරීමෙන් පසු එන දේ (මෙය ඔබට වෙනස් කල හැක..!)",
             "required": false,
-            "value": "default"
+            "value": "```I am Alive```\n\n```Coded By Maraya_BoT```"
         },
         "BAN_MESSAGE": {
-            "description": "Customizable Ban Message! Use => default, to change back.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "default"
         },
         "ADD_MESSAGE": {
-            "description": "Customizable Add Message! Use => default, to change back.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "Customizable Kickme Message! Use => default, to change back.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
-            "description": "Customizable Promote Message! Use => default, to change back.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "default"
         },
         "DEMOTE_MESSAGE": {
-            "description": "Customizable Demote Message! Use => default, to change back.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "default"
         },
         "AFK_MESSAGE": {
-            "description": "Customizable AFK Message! Use => default, to change back.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "default"
         },
         "GAN_IMAGE": {
-            "description": "Type image link for Gan Style plugin.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!(මෙය වෙනස් කරන්න එපා).",
             "required": true,
             "value": "https://i.hizliresim.com/loUtAb.jpg"
         },
         "NO_ONLINE": {
-            "description": "Type true if you don't want to appear online.",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
-            "value": "false"
+            "value": "true"
         },
         "COFFEEHOUSE_API_KEY": {
-            "description": "Pass This Step!",
+            "description": "මෙය පිරවීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "true"
         }
